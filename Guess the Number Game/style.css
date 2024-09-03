@@ -1,0 +1,55 @@
+*{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    align-items: center;
+}
+body{
+    border: 1px solid black;
+    width: 99%;
+    height: 706px;
+    background-color: black;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin: 3rem 0;
+    color: aqua;
+    font-size: 2.5rem;
+    
+}
+#guessnumber {
+    padding: .5rem;
+    font-size: 2rem;
+    width: 40%;
+    color: rgb(36, 123, 123);
+    align-items: center;
+    margin: 0 0 0 25%;
+    text-align: center;
+}
+button{
+    width: 8rem;
+    font-size: 2rem;
+    padding: .5rem;
+    background-color: aquamarine;
+    align-items: center;
+}
+#result{
+    color: rgb(103, 248, 103);
+    font-size: 1.5rem;
+    margin: 3rem;
+    text-align: center;
+
+}
+#score{
+    color: yellow;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+@media(max-width:768px){
+    #guessnumber{
+      margin-left: 10%;
+    }
+}
