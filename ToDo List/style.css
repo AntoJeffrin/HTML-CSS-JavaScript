@@ -1,0 +1,77 @@
+*{
+    background-color: yellowgreen;
+    
+}
+h1{
+    margin-top: 70px;
+    text-align: center;
+    color: #7d404d;
+}
+
+.container{
+    border: 1px solid #f38789;
+    margin: 100px auto;
+    margin-top: 0;
+    width: 450px;
+    height: 500px;
+    background-color: #e8a1a2;
+    border-radius: 15px;
+}
+.enter{
+    margin: 20px;
+    display: flex;
+    border-radius: 15px;
+    background-color: #e8a1a2;
+}
+.enter input{
+    width: 100%;
+    padding:5px ;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #c9a8ce;
+    border: 1px solid #cc62dd;
+}
+.enter input:hover{
+    background-color: #cf98d7;
+}
+.enter #add{
+    margin-left: 5px;
+    width: 80px;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    background-color:  #cc77d9;
+    border: 1px solid #c952db;
+}
+ul{
+    border: 1px solid black;
+    height: 410px;
+    overflow:scroll;
+    word-wrap: break-word;
+
+}
+ul li button{
+     margin-left: 15px;
+     font-size: 1rem;
+     padding: 5px;
+     width: 70px;
+     border-radius: 15px;
+     background-color: #f8c3c4;
+     border:1px solid #ef9c9d;
+
+}
+ul li{
+   padding-top: 15px;
+   background-color: #fbded6;
+   color: #613339;
+}
+.lists{
+    margin: 10px;
+    border-radius: 15px;
+}
+#list-container{
+    background-color: #fbded6;
+    border-radius: 15px;
+    border: 1px solid #ee88c5;
+}
+
